@@ -63,7 +63,7 @@ def all_holidays_with_bbq(holiday_hash)
     holiday_hash.collect do |season, holiday|
       holiday.collect do |holiday_name, supply|
         if supply.include? "BBQ" 
-          answer << holiday_name
+          answer << holiday_name.to_s
           answer
     end #ends second iteration 
   end # ends first iteration 
