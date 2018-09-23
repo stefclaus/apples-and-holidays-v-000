@@ -67,6 +67,7 @@ def all_holidays_with_bbq(holiday_hash)
     end #ends second iteration 
   end # ends first iteration 
   end #ends 
+  answer 
 end 
 
 
